@@ -59,9 +59,59 @@ body{
     
 } 
 
+.random-info{
+    height: 85vh;
+}
+
+.random-info .random-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-weight: bold; */
+}
+
+.card{
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+.random-info .random-cards{
+    display: flex;
+    margin-top: 15px;
+    /* border: 3px solid black; */
+    justify-content: space-around;
+    padding-left: auto;
+}
+
+.random-cards img{
+    width: auto;
+    height: 150px;
+    border-radius: 5%;
+    border: 2px solid gold;
+}
 
 
+.quote{
+    height: 55vh;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.quote-text{
+    max-width: 600px;
+    font-size: 25px;
+    /* margin-left: 20px; */
+}
+.quote-name{
+    margin-left: 300px;
+    margin-top: -15px;
+}
 img{
     height: auto;
     width: 400px;
