@@ -12,6 +12,8 @@ body{
     height: 85vh;
     /* border: 1px solid gold; */
 }
+
+
 .line-one{
     display: flex;
     justify-content: space-around;
@@ -59,6 +61,15 @@ body{
     
 } 
 
+.header button{
+    width: 90px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    background-color: #3B82F6;
+    border: 0;
+    border-radius: 5px;
+}
 .random-info{
     height: 85vh;
 }
@@ -90,7 +101,7 @@ body{
     width: auto;
     height: 150px;
     border-radius: 5%;
-    border: 2px solid gold;
+    border: 2px solid #1F2937;
 }
 
 
@@ -112,7 +123,58 @@ body{
     margin-left: 300px;
     margin-top: -15px;
 }
-img{
-    height: auto;
-    width: 400px;
+
+.call-to-action{
+    height: 50vh;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.call-rectangle{
+    max-width: 800px;
+    max-height: 100px;
+    background-color: #3B82F6;
+    border-radius: 15px;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+    color: white;
+    /* max-height: 200px; */
+
+}
+
+.call-rectangle .call-left{
+    max-width: 600px;
+    font-size: larger;
+}
+
+.call-btn button{
+    width: 90px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    background-color: #3B82F6;
+    border: 2px solid white;
+    border-radius: 5px;
+
+}
+
+.call-btn button a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.footer{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
 }
